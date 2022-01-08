@@ -4,9 +4,9 @@ image:
   - Visual Studio 2019
 
 install:
-  - pip install poetry
-  - poetry install
-#  - py -m pip install flask
+#  - pip install poetry
+#  - poetry install
+  - py -m pip install flask
 
 build: false
 
