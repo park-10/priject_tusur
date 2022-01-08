@@ -3,8 +3,6 @@
 image:
   - Visual Studio 2019
 
-install:
-  - py -m pip install flask
 
 build_script:
   - py ./some_app.py
