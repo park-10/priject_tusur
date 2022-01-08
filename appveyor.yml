@@ -3,12 +3,13 @@
 image:
   - Visual Studio 2019
 
+PACKAGE: "poetry"
+
 install:
   - pip install poetry
   - poetry install
 #  - py -m pip install flask
   - poetry --version
-  - poetry update
   - flask --version
 
 #build_script:
