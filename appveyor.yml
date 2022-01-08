@@ -1,3 +1,1 @@
-language: python
-script:
-  - python3 ./some_app.py
+version: '1.0.{build}'
