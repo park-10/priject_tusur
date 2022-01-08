@@ -5,8 +5,10 @@ image:
 
 install:
   - pip install poetry
-  - poetry install -m
+  - poetry install
 #  - py -m pip install flask
+  - poetry --version
+  - flask --version
 
-build_script:
-  - py ./some_app.py
+#build_script:
+#  - py ./some_app.py
