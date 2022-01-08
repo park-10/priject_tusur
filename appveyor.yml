@@ -1,25 +1,10 @@
-image: Visual Studio 2019
-
-environment:
-  matrix:
-    - TOXENV: py39
+# appveyor.yml - https://www.appveyor.com/docs/lang/python
+---
+image:
+  - Visual Studio 2019
 
 install:
-  # Install Python (from the official .msi of http://python.org) and pip when
-  # not already installed.
-  - ps: if (-not(Test-Path($env:PYTHON))) { & appveyor\install.ps1 }
+  - py -m pip install flask
 
-  - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
-
-  # Check that we have the expected version and architecture for Python
-  - "python --version"
-  - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
-
-  - "pip install --disable-pip-version-check --user --upgrade pip"
-
-  # Kivy and pyinstaller included
-  - "%CMD_IN_ENV% pip install -r requirements.txt"
-
-  # Saw somewhere on the internet, doesn't work with it nor without it.
-  - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-desktop.ps1'))
-
+build_script:
+  - py ./some_app.py
