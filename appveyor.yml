@@ -1,2 +1,2 @@
-script:
+build_script:
   - python3 ./some_app.py
