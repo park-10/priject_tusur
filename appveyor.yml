@@ -8,6 +8,7 @@ install:
   - poetry install
 #  - py -m pip install flask
   - poetry --version
+  - poetry update
   - flask --version
 
 #build_script:
