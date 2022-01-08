@@ -1,5 +1,5 @@
 install:
-  - py pip3 install flask
+  - py pip install flask
 
 build_script:
   - py ./some_app.py
