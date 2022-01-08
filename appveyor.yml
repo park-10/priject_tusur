@@ -12,5 +12,5 @@ build: false
 
 build_script:
 #  - py ./some_app.py
-  - poetry --version
+#  - poetry --version
   - flask --version
