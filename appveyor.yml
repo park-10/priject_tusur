@@ -10,8 +10,8 @@ install:
 
 build: false
 
-build_script:
+#build_script:
 #  - py ./some_app.py
 #  - poetry --version
 #  - flask --version
-  - py ./some_app.py
+#  - py ./some_app.py
