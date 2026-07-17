@@ -1,0 +1,8 @@
+https://dpmon01.ftc.ru/grafana/d/5IllBUHnk/speech-analytics?orgId=1&refresh=30s
+https://dpmon01.ftc.ru/grafana/d/I3PkmGpWk/pods-overview?orgId=1&from=now-12h&to=now&var-cluster=VictoriaMetrics-cluster&var-k8s_cluster=All&var-namespace=mo&var-pods=dredd&var-container=All
+
+https://dpmon01.ftc.ru/grafana/d/I3PkmGpWk/pods-overview?orgId=1&var-cluster=VictoriaMetrics-cluster&var-k8s_cluster=All&var-namespace=mo&var-pods=dredd&var-container=All
+
+https://dpmon.ftc.ru/grafana/d/jwPKIsniz/kafka-exporter-overview?orgId=1&var-job=monitoring%2Fdp-kafka-exporter-metrics-pod&var-instance=&var-topic=ml.sa.asr&var-topic=ml.sa.tasks
+
+https://dpmon.ftc.ru/grafana/d/jwPKIsniz/kafka-exporter-overview?orgId=1&from=now-1h&to=now&var-job=monitoring%2Fdp-kafka-exporter-metrics-pod&var-instance=&var-topic=ml.sa.asr&var-topic=ml.sa.results&var-topic=ml.sa.tasks&var-topic=rnd.sa.recognition.tasks&var-topic=rnd.transcription.tasks&var-topic=rnd.transcription.results
