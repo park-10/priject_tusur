@@ -9,3 +9,5 @@ https://dpmon.ftc.ru/grafana/d/jwPKIsniz/kafka-exporter-overview?orgId=1&from=no
 
 https://dpmon01-et.ftc.ru/grafana/d/xJbaSgBMk/geoip?orgId=1&refresh=5s
 
+unset JMX_PORT && /opt/bitnami/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092  --create --topic ml.sa.asr
+
