@@ -16,3 +16,5 @@ unset JMX_PORT && /opt/bitnami/kafka/bin/kafka-topics.sh --bootstrap-server loca
 unset JMX_PORT && /opt/bitnami/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
 
 https://jdp.ftc.ru/browse/MAINTENANCE-57974?jql=%22%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%22%20%3D%20dredd
+
+vless://0bf9f924-a19b-4bca-b71a-772ab3955658@158.160.6.238:443?type=xhttp&encryption=none&path=%2F&host=&mode=auto&security=reality&pbk=TIf_u8HGwCBtKg14oYsIhXxBYE6vb_r90mRJyrLqo1E&fp=chrome&sni=www.google.com&sid=92e9c55228&spx=%2F#wxdcmdt4
